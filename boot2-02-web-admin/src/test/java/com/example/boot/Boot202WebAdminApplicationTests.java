@@ -24,6 +24,7 @@ class Boot202WebAdminApplicationTests {
         Long sun = jdbcTemplate.queryForObject(sql, Long.class);
         log.info("查到的数据{}条",sun);
         log.info("测试了Git提交");
+        log.info("测试合并分支");
     }
     @Test
     void testUserXMapper(){
