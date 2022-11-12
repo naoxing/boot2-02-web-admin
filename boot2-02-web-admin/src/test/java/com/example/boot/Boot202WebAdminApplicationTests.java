@@ -23,7 +23,7 @@ class Boot202WebAdminApplicationTests {
         String sql = "select count(*) from t_product";
         Long sun = jdbcTemplate.queryForObject(sql, Long.class);
         log.info("查到的数据{}条",sun);
-
+        log.info("测试了Git提交");
     }
     @Test
     void testUserXMapper(){
