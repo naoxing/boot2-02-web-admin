@@ -28,6 +28,7 @@ class Boot202WebAdminApplicationTests {
         log.info("合并冲突--master提交");
         log.info("合并冲突--hot-fix提交");
         log.info("push test!");
+        log.info("pull test!");
     }
     @Test
     void testUserXMapper(){
